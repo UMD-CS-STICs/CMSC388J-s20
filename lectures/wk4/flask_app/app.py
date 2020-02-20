@@ -4,7 +4,7 @@ from flask_pymongo import PyMongo
 from flask_app.forms import WelcomeForm
 
 app = Flask(__name__)
-app.config["MONGO_URI"] = "mongodb://localhost:27017/my_database"
+app.config["MONGO_URI"] = "mongodb://localhost:27017/second_database"
 app.config['SECRET_KEY'] = b'z\x8b\x7fs\xb2\xfa\xeb\x1a\xe6\xa8\xcd\x81\xf2Qq\xdb'
 mongo = PyMongo(app)
 

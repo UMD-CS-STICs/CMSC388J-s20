@@ -82,29 +82,7 @@ This week we'll be using the `requests`, `Flask`, `Flask-WTF`, and `Flask-PyMong
 ## Project
 
 This is the `p3/` directory structure
-.
-├── README.md
-├── flask_app
-│   ├── __init__.py
-│   ├── app.py
-│   ├── forms.py
-│   ├── model.py
-│   ├── static
-│   │   └── custom.css
-│   └── templates
-│       ├── base.html
-│       ├── header.html
-│       ├── index.html
-│       ├── movie_detail.html
-│       └── query.html
-├── images
-│   ├── env_var_set_new_var.PNG
-│   ├── env_var_sys_props.PNG
-│   ├── env_var_window.PNG
-│   ├── env_var_windows_search.png
-│   ├── omdb_home.png
-│   └── request_key.png
-└── requirements.txt
+![alt text](images/directory.png "Directory Structure")
 
 **Only modify:** `app.py` and `forms.py`. 
 

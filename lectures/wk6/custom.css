@@ -1,0 +1,13 @@
+body {
+    position: relative;
+}
+
+.row {
+    background: #f8f9fa;
+    margin-top: 20px;
+  }
+  
+  .col, .col-8, .col-4 {
+    border: solid 1px #6c757d;
+    padding: 10px;
+  }

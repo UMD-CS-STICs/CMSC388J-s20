@@ -19,7 +19,7 @@ to protect your website from bad actors, and more! At the end of the course, you
 - **Textbook**: No textbook, all materials are provided and documentation is online
 - **Course Facilitators**: Kenton Wong, Yashas Lokesh
 - **Faculty Advisor**: Michael Marsh
-- **Syllabus last updated**: January 27th, 2020
+- **Syllabus last updated**: March 13th, 2020
 - **Previously offered**: Fall 2019
 
 ## Topics Covered
@@ -76,16 +76,17 @@ to protect your website from bad actors, and more! At the end of the course, you
 | 6    | File Uploads, Bootstrap                  | P3 due, P4 assigned                           |
 | 7    | In-depth CSS & JS*                       |                                               |
 | 8    | SPRING BREAK                             |                                               |
-| 9    | Flask Extensions (opt., publishing)      | P4 due, P5 assigned                           |
-| 10   | Logging, Workday                         |                                               |
-| 11   | HTTP Headers & Talisman                  | P5 due, Final project assigned                |
-| 12   | Blueprints                               |                                               |
+| 9    | SPRING BREAK                             |                                               |
+| 10** | Flask Extensions (opt., publishing)      | P4 due, P5 assigned                           |
+| 11** | Logging, HTTP Headers & Talisman         |                                               |
+| 12   | Blueprints                               | P5 due, Final project assigned                |
 | 13   | Two-factor Authentication                |                                               |
 | 14   | Payments with Stripe*                    |                                               |
 | 15   | Deploying your app                       |                                               |
 | 16   | Workday -- optional class                | Final project due                             |
 
 * See **Fluid Schedule** section below
+** See **Online Class Schedule** section below
 
 ## Fluid Schedule
 
@@ -96,6 +97,10 @@ we'll try to add it in.
 
 We'll send out information on how you can let us know anonymously; surveys
 will probably be conducted anonymously on ELMS.
+
+## Online Class Schedule
+Weeks 10 and 11 (and possibly others) will be **online**; we will add the slides for the topics of the week
+to the shared Google Drive folder, but we will not be holding in-person lectures.
 
 ## Grading
 
@@ -142,7 +147,7 @@ towards the end of the semester.
 ## Outside-of-class communication with course staff
 We'll communicate through students mainly through Piazza and through office hours.
 
-**Office hours**: Thursdays, 2-3 PM, AVW 1120
+**Office hours**: Thursdays, 2-3 PM, IRB tables
 
 Please use Piazza as your primary communication with the course staff, we'll get back to you
 the quickest on Piazza. If you absolutely cannot use Piazza, then email us; if you are

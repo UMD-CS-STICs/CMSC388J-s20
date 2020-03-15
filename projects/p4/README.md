@@ -60,6 +60,7 @@ in `routes.py`.
 
 Now we'll go into detail about each of the new view functions:
 1. `account()` - Login required
+   
    Should be routed at `/account`. Renders the `account.html` template.
    The template has spaces for a greeting to the user, a
    username update form, a profile picture update form, and a link
@@ -79,6 +80,7 @@ Now we'll go into detail about each of the new view functions:
    how we did that in `movie_detail.html`. For a link to all of the current
    user's reviews, you should redirect to the user detail page.
 2. `login()`
+   
    Should be routed at `/login`. Renders the `login.html` template.
    The template has spaces for adding a message to the user telling
    them to register (if they don't have an account), for displaying
@@ -97,6 +99,7 @@ Now we'll go into detail about each of the new view functions:
    and display flashed messages, the login form, and any login form errors
    rendered with Bootstrap classes. 
 3. `register()`
+   
    Should be routed at `/register`. Renders the `register.html` template.
    The template has spaces for asking the user to login if they already have
    an account, for showing the registration form, and for showing flashed
@@ -113,6 +116,7 @@ Now we'll go into detail about each of the new view functions:
    provide the link for them to do so, display any messages you want flashed, 
    and display the registration form, all rendered with Bootstrap.
 4. `user_detail(username)`
+   
    Should be routed at `/user/<username>`. Renders the `user_detail.html` template.
    The template has a space for indicating whose reviews we're looking at, a 
    space for displaying all reviews, and a space for showing any errors.
@@ -129,12 +133,15 @@ Now we'll go into detail about each of the new view functions:
    - Which movie the review was made for (movie title)
    - The review content itself.
    - (Optionally) show the user's profile picture.
+   
    Your template should be able to handle a variable number of reviews.
 5. `logout()` - Login required
+   
    Should be routed at `/logout`. Doesn't render a template, but
    logs out the current user. Redirect to the `/index` after
    logging out.
 6. EXTRA CREDIT: `images()`
+   
    Return an image. This can be used in conjunction with `url_for` in order
    to dynamically retrieve images.
    Refer to [this link](https://flask.palletsprojects.com/en/1.1.x/api/#flask.send_file).
@@ -143,6 +150,7 @@ Now we'll go into detail about each of the new view functions:
    and the second argument setting `mimetype=image/png` or `mimetype=image/jpg`.
    The `BytesIO` object should be created with the image data.
 7. EXTRA CREDIT: `movie_detail()`
+   
    On the `movie_detail()` page, where users can enter reviews, show each commenter's
    profile picture next to their review.
 
@@ -180,7 +188,8 @@ is used by `Flask-Login` in order to retrieve the current user object.
      store data and retrieve data)
    - (Optional) Any fields you'd like to add that you think will make your app
      easier to implement.
-   You should also implement the `get_id()` method of `User`, which returns a 
+   
+   **You should also** implement the `get_id()` method of `User`, which returns a 
    string unique to each user, so that `load_user(user_id)` works properly.
 2. `Review` - Should have these fields:
    - A required reference to a `User`, who is the **commenter**

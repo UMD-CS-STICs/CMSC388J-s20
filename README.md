@@ -77,16 +77,15 @@ to protect your website from bad actors, and more! At the end of the course, you
 | 7    | In-depth CSS & JS*                       |                                               |
 | 8    | SPRING BREAK                             |                                               |
 | 9    | SPRING BREAK                             |                                               |
-| 10** | Flask Extensions (opt., publishing)      | P4 due, P5 assigned                           |
-| 11** | Logging, HTTP Headers & Talisman         |                                               |
-| 12   | Blueprints                               | P5 due, Final project assigned                |
-| 13   | Two-factor Authentication                |                                               |
-| 14   | Payments with Stripe*                    |                                               |
-| 15   | Deploying your app                       |                                               |
-| 16   | Workday -- optional class                | Final project due                             |
+| 10** | Extensions (opt., publishing), Logging   | P4 due, P5 assigned                           |
+| 11** | HTTP Headers & Talisman                  |                                               |
+| 12** | Blueprints                               | P5 due, Final project assigned                |
+| 13** | Two-factor Authentication                |                                               |
+| 14** | Payments with Stripe*                    |                                               |
+| 15** | Deploying your app                       |                                               |
+| 16** | Workday -- optional class                | Final project due                             |
 
-* See **Fluid Schedule** section below
-** See **Online Class Schedule** section below
+* See **Fluid Schedule** & **Online Class Schedule** sections below
 
 ## Fluid Schedule
 
@@ -99,8 +98,8 @@ We'll send out information on how you can let us know anonymously; surveys
 will probably be conducted anonymously on ELMS.
 
 ## Online Class Schedule
-Weeks 10 and 11 (and possibly others) will be **online**; we will add the slides for the topics of the week
-to the shared Google Drive folder, but we will not be holding in-person lectures.
+Starting from Week 10, classes will be **online**; we will add the slides for the topics of the week
+to the shared Google Drive folder, and we will be holding a Q&A session during classtime on Zoom.
 
 ## Grading
 

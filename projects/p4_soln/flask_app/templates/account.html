@@ -1,0 +1,58 @@
+{% extends "header.html" %}
+{% block content %}
+<div class="row">
+    <div class="col">
+        <img class="propic" src="data:image/png;base64,{{image}}" alt="image">
+    </div>
+    <div class="col">
+        <h1>Hey, {{ current_user.username }}!</h1>
+    </div>
+</div>
+<div class="row">
+    <div class="col">
+        <form action="" method="post">
+            {{ username_form.csrf_token }}
+            <div class="form-group">
+                {{ username_form.username.label(class="form-control-label") }}
+                {{ username_form.username(class="form-control form-control-lg") }}
+
+                {% if username_form.username.errors %}
+                <div class="alert alert-warning" role="alert">
+                    {% for error in username_form.username.errors %}
+                    <span>{{ error }}</span>
+                    {% endfor %}
+                </div>
+                {% endif %}
+            </div>
+            <div class="form-group">
+                {{ username_form.submit }}
+            </div>
+        </form>
+    </div>
+</div>
+<div class="row">
+    <div class="col">
+        <form action="" method="post" enctype="multipart/form-data">
+            {{ profile_pic_form.csrf_token }}
+            <div class="form-group">
+                {{ profile_pic_form.propic.label(class="form-control-label") }}
+                {{ profile_pic_form.propic(class="form-control form-control-lg") }}
+
+                {% if profile_pic_form.propic.errors %}
+                <div class="alert alert-warning" role="alert">
+                    {% for error in profile_pic_form.propic.errors %}
+                    <span>{{ error }}</span>
+                    {% endfor %}
+                </div>
+                {% endif %}
+            </div>
+            <div class="form-group">
+                {{ profile_pic_form.submit }}
+            </div>
+        </form>
+    </div>
+</div>
+<a href="{{ url_for('user_detail', username=current_user.username) }}">
+    <h4>Click here to see all of your posts and comments!</h4>
+</a>
+{% endblock %}>

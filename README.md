@@ -12,14 +12,14 @@ to protect your website from bad actors, and more! At the end of the course, you
 - **Course**: CMSC388J
 - **Prerequisites**: C- or better in CMSC216 and CMSC250
 - **Credits**: 1
-- **Seats**: 30
+- **Seats**: 32
 - **Lecture Time**: Tuesdays, 5-5:50 PM (all sections)
 - **Location**: HBK 1112
 - **Semester**: Spring 2020
 - **Textbook**: No textbook, all materials are provided and documentation is online
 - **Course Facilitators**: Kenton Wong, Yashas Lokesh
 - **Faculty Advisor**: Michael Marsh
-- **Syllabus last updated**: March 13th, 2020
+- **Syllabus last updated**: April 28th, 2020
 - **Previously offered**: Fall 2019
 
 ## Topics Covered
@@ -56,12 +56,12 @@ to protect your website from bad actors, and more! At the end of the course, you
 - SQL
   - SQLite
   - PostgreSQL
-- Payments Integration
-  - Stripe (possibly others, we're open to suggestions)
 - App Deployment
   - Heroku
   - Python Anywhere
   - *Possibly*: Google App Engine, AWS
+- Payments Integration
+  - Stripe (possibly others, we're open to suggestions)
 - Version Control
   - Git
 
@@ -77,19 +77,18 @@ to protect your website from bad actors, and more! At the end of the course, you
 | 7    | In-depth CSS & JS*                       |                                               |
 | 8    | SPRING BREAK                             |                                               |
 | 9    | SPRING BREAK                             |                                               |
-| 10** | Extensions (opt., publishing), Logging   | P4 due, P5 assigned                           |
-| 11** | HTTP Headers & Talisman                  |                                               |
-| 12** | Blueprints                               | P5 due, Final project assigned                |
-| 13** | Two-factor Authentication                |                                               |
-| 14** | Payments with Stripe*                    |                                               |
-| 15** | Deploying your app                       |                                               |
-| 16** | Workday -- optional class                | Final project due                             |
+| 10** | Extensions (opt., publishing), Logging   | P4                                            |
+| 11** | HTTP Headers & Talisman                  | Final project assigned                        |
+| 12** | Blueprints                               |                                               |
+| 13** | Two-factor Authentication                | Final project proposal due                    |
+| 14** | Deploying your app                       |                                               |
+| 15** | Payments with Stripe*                    | Final project due last day of finals (5/20)   |
 
 * See **Fluid Schedule** & **Online Class Schedule** sections below
 
 ## Fluid Schedule
 
-Weeks 7 and 14 will have a main topic of discussion, but during these weeks, we'll also try
+Weeks 7 and 15 will have a main topic of discussion, but during these weeks, we'll also try
 to teach topics requested by the students. So if you guys feel like you need more info about a
 certain topic during class, or just want to learn a new idea altogether, let us know, and
 we'll try to add it in.
@@ -141,7 +140,7 @@ We will look at your most recent on-time and late (if applicable) submissions wh
 The final project will use everything you have learned in class before and will require you
 to build a Flask web application from scratch with a group or individually, and deploy
 the app on a hosting platform. Requirements for the final project will come out
-towards the end of the semester.
+in the shared Google Drive folder towards the end of the semester.
 
 ## Outside-of-class communication with course staff
 We'll communicate through students mainly through Piazza and through office hours.
